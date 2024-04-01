@@ -95,8 +95,94 @@ This chapter explores the rise of data engineering, its role in supporting data 
   * Type B (Build): Builds custom data tools and systems, focuses on scalability and competitive advantage.
   * Type A is common across data maturity stages, B is common in later stages or for unique use cases. 
   * A and B engineers may coexist or a single person may develop both skillsets over time.
+* Data Engineer Types: A vs. B
+    * **Type A (Abstraction):**
+        * Uses pre-built tools and services.
+        * Focuses on keeping data architecture simple and efficient.
+        * Found across companies at all data maturity stages. 
+    * **Type B (Build):**
+        * Builds custom data tools and systems for scalability and competitive advantage.
+        * More common in later data maturity stages or for unique use cases.
+    * **Type A vs. B in a Company:**
+        * A and B engineers may work together or the same person can develop both skillsets over time.
+        * Companies typically hire a Type A engineer first to lay the foundation, then hire or train for Type B skills as needed.
 
 ### Data Engineers Inside an Organization
+* Data Engineer Roles: Internal vs. External
+    * **Internal vs. External Focus:**
+        * Internal: Serves business needs (data pipelines, warehouses for BI/ML).
+        * External: Supports external applications (social media, IoT, ecommerce).
+    * **External Data Engineers:**
+        * Build & manage data collection, storage, and processing systems for external apps.
+        * Handle high concurrency, user query limits, and complex security (multi-tenant data).
+    * **Internal Data Engineers:**
+        * Create & maintain data infrastructure for internal uses (BI, reports, business processes).
+    * **The Blend:**
+        * Internal data often feeds external data.
+        * Engineers manage users with different needs (concurrency, security).
+
+* Data Engineer Interactions: Upstream & Downstream
+
+    * **Upstream Stakeholders (data producers):**
+
+        * Data Architects: Design data management blueprints and strategies.
+        * Software Engineers: Build applications that generate internal data.
+        * DevOps/SREs: Produce data through operational monitoring.
+
+    * **Downstream Stakeholders (data consumers):**
+
+        * Data Scientists: Build models using data prepared by engineers.
+        * Data Analysts: Analyze data to understand business performance.
+        * ML Engineers: Develop and maintain ML infrastructure.
+        * AI Researchers: Develop new advanced ML techniques.
+
+    * **Key Points:**
+
+        * Data engineers collaborate with various roles throughout the data lifecycle.
+        * They should understand data architecture and source systems.
+        * Successful collaboration improves data quality and efficiency for all.
+
+* Data Engineers and Business Leadership
+
+    * Data engineers collaborate with C-suite executives (CEO, CIO, CTO, CDO, CAO, CAO-2).
+    * They inform leadership on data capabilities and limitations.
+    * C-suite leaders define data strategy and initiatives.
+
+    * **Key Roles:**
+
+        * CEO: Sets data vision and collaborates with technical leadership.
+        * CIO: Manages IT and data culture, collaborates with data engineering leadership.
+        * CTO: Owns external technology strategy (data sources for engineers).
+        * CDO: Oversees data strategy, products, and core functions (may manage data engineering).
+        * CAO: Leads business analytics and decision making (may oversee data science/ML).
+        * CAO-2: Highly technical role focused on data science and ML initiatives.
+
+* **Data Engineers and Project/Product Management:**
+
+    * Project managers:
+        * Oversee large data initiatives (e.g., cloud migrations).
+        * Prioritize deliverables and manage stakeholders.
+        * Collaborate with data engineers on sprints and planning.
+    * Product managers:
+        * Oversee data product development.
+        * Balance needs of technology, customers, and business.
+        * Data engineers interact more frequently with product managers.
+
+* **Other Management Roles:**
+
+    * Data engineers interact with various managers depending on the team structure (service vs. cross-functional).
+
 ### Conclusion
+* **What is Data Engineering?**
+    * Building, maintaining data systems for data collection, storage, processing.
+* **Data Maturity Stages:**
+    * Defines a company's data challenges as it grows its data capabilities. 
+* **Data Engineer Types:**
+    * Type A: Uses pre-built tools, focuses on simplicity.
+    * Type B: Builds custom tools for scalability and competitive advantage.
+* **Who Engineers Work With:**
+    * Upstream: data architects, software engineers, DevOps/SREs (data producers).
+    * Downstream: data scientists, analysts, ML engineers, AI researchers (data consumers).
+ 
 ### Additional Resources
 * How Data Engineering Works? https://youtu.be/qWru-b6m030
