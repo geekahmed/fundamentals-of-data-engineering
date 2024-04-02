@@ -13,4 +13,5 @@ This book will teach you practical data engineering skills to solve real-world p
 ## Table of Contents
 
 * [Chapter 01. Data Engineering Described](./Chapter%2001.%20Data%20Engineering%20Described/README.md)
+* [Chapter 02. The Data Engineering Lifecycle](./Chapter%2002.%20The%20Data%20Engineering%20Lifecycle/README.md)
 
